@@ -1,6 +1,6 @@
 # Diátaxis 中文翻译
 
-Diataxis 中文翻译。[正文点此](.Diátaxis_all_in_one.md)。
+Diataxis 中文翻译。[正文点此](./Diátaxis_all_in_one.md)。
 
 第一版会优先专注于把全文翻译成中文以及尽量使名词翻译准确。
 
