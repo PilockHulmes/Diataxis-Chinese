@@ -1,12 +1,12 @@
 # Attributions
 
-## Diátaxis
+## Diátaxis Documentation Framework 
 
 by Daniele Procida
 
 https://diataxis.fr/ 感谢作者提供这篇优质的指导文档。
 
-本项目主要内容都翻译自 Diátaxis
+本项目主要内容都翻译自 Diátaxis Documentation Framework 
 
 ## DeepSeek
 
