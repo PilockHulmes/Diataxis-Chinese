@@ -7,9 +7,9 @@ import requests
 from collections import deque
 
 # ===== 配置区域 =====
-with open("./.key", "r", encoding="utf-8") as f:
+with open("./.key", "r", encoding="utf-8") as f: # 创建一个 .key 文件，里面带上 deepseek 密钥
     DEEPSEEK_API_KEY = f.readline()
-# DEEPSEEK_API_KEY = "YOUR_API_KEY"  # 替换为你的DeepSeek API密钥
+# DEEPSEEK_API_KEY = "YOUR_API_KEY"  
 API_URL = "https://api.deepseek.com/v1/chat/completions"
 MAX_CONTEXT_LENGTH = 3000  # 最大上下文长度(字符)
 CONTEXT_WINDOW = 3  # 上下文记忆段落数
