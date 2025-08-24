@@ -67,14 +67,14 @@ def translate_text(text, glossary={}, retries=3):
     glossary_str = "\n".join([f"{k}: {v}" for k, v in glossary.items()])
     
     prompt = (
-        f"你是一位专业的技术文档翻译专家。请将以下技术内容准确翻译成中文：\n\n"
+        f"你是一位专业的技术文档翻译专家。请将以下技术内容准确翻译成中文，只输出译文。：\n\n"
         f"{text}\n\n"
         f""
         f"【重要要求】：\n"
         f"1. 保持技术术语一致性（参考术语表）\n"
         f"2. 保留所有数字、符号和专有名词格式\n"
-        f"3. 技术术语表：\n{glossary_str}\n"
-        f"4. 只输出译文，不需要输出任何其它内容\n"
+        f"3. 只输出译文，不需要输出任何其它内容\n"
+        f"4. 技术术语表：\n{glossary_str}\n"
         f"{context_prompt}"
     )
     
