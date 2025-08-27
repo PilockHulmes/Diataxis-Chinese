@@ -1,0 +1,3 @@
+[submodule "diataxis-documentation-framework"]
+	path = diataxis-documentation-framework
+	url = https://github.com/PilockHulmes/diataxis-documentation-framework.git
