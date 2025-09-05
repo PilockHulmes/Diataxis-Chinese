@@ -5,7 +5,7 @@
 
 Diataxis [中文翻译点此进入](./Diátaxis_all_in_one.md)。
 
-完成了第一版文字翻译，目前正照着原版文档的排版搭建 Sphinx 页面。
+网页版 https://diataxis-documentation-framework-chinese-translation.readthedocs.io/en/latest/quality/
 
 第一版会优先专注于把全文翻译成中文以及尽量使名词翻译准确。Deepseek 翻译很好用，但需要人力来记忆一些相对长期的上下文，也需要人力来使单词翻译前后一致。
 
